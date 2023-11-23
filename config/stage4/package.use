@@ -1,0 +1,503 @@
+app-accessibility/at-spi2-core X abi_x86_64 introspection systemd -abi_x86_32 -abi_x86_x32 -dbus-broker -gtk-doc -test
+app-admin/eselect -doc -emacs -vim-syntax
+app-admin/passwordsafe xml -qr -test -yubikey
+app-admin/perl-cleaner -pkgcore
+app-alternatives/awk gawk -busybox -mawk -nawk -split-usr
+app-alternatives/bc gnu -gh
+app-alternatives/bzip2 reference -lbzip2 -pbzip2 -split-usr
+app-alternatives/gzip reference -pigz -split-usr
+app-alternatives/lex flex -reflex
+app-alternatives/sh bash -busybox -dash -ksh -lksh -mksh
+app-alternatives/tar gnu -libarchive -split-usr
+app-alternatives/yacc bison -byacc -reference
+app-arch/brotli abi_x86_64 python_targets_python3_11 -abi_x86_32 -abi_x86_x32 -debug -python -python_targets_python3_10 -python_targets_python3_12 -test
+app-arch/bzip2 abi_x86_64 -abi_x86_32 -abi_x86_x32 -split-usr -static -static-libs -verify-sig
+app-arch/gzip -pic -static -verify-sig
+app-arch/lbzip2 -debug -static
+app-arch/libarchive abi_x86_64 acl bzip2 e2fsprogs iconv lzma xattr -abi_x86_32 -abi_x86_x32 -blake2 -expat -lz4 -lzo -nettle -static-libs -verify-sig -zstd
+app-arch/lz4 abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+app-arch/pixz -static
+app-arch/tar acl nls xattr -minimal -selinux -verify-sig
+app-arch/unzip bzip2 natspec unicode
+app-arch/xz-utils abi_x86_64 extra-filters nls -abi_x86_32 -abi_x86_x32 -doc -pgo -split-usr -static-libs -verify-sig
+app-arch/zip bzip2 crypt unicode -natspec
+app-arch/zstd abi_x86_64 lzma zlib -abi_x86_32 -abi_x86_x32 -lz4 -split-usr -static-libs -test
+app-containers/cni-plugins hardened
+app-containers/conmon seccomp systemd
+app-containers/crun bpf caps seccomp systemd -criu -selinux -static-libs
+app-containers/podman fuse init rootless -apparmor -btrfs -cgroup-hybrid -selinux
+app-crypt/argon2 -static-libs
+app-crypt/gnupg bzip2 nls readline smartcard ssl usb -doc -ldap -selinux -test -tofu -tools -user-socket -verify-sig -wks-server
+app-crypt/gpgme cxx python_targets_python3_11 qt5 -common-lisp -debug -python -python_targets_python3_10 -python_targets_python3_12 -static-libs -test -verify-sig
+app-crypt/libb2 abi_x86_64 openmp -abi_x86_32 -abi_x86_x32 -native-cflags -static-libs
+app-crypt/libmd abi_x86_64 -abi_x86_32 -abi_x86_x32
+app-crypt/pinentry X ncurses qt5 wayland -caps -efl -emacs -gtk -keyring -verify-sig
+app-crypt/rhash abi_x86_64 nls ssl -abi_x86_32 -abi_x86_x32 -debug -static-libs
+app-dicts/myspell-en l10n_en l10n_en-US -l10n_en-AU -l10n_en-CA -l10n_en-GB -l10n_en-ZA
+app-editors/nano ncurses nls spell unicode -debug -justify -magic -minimal -static
+app-editors/vim X acl gpm lua_single_target_lua5-1 nls python_single_target_python3_11 -crypt -cscope -debug -lua -lua_single_target_lua5-3 -lua_single_target_lua5-4 -lua_single_target_luajit -minimal -perl -python -python_single_target_python3_10 -racket -ruby -selinux -sound -tcl -terminal -vim-pager
+app-editors/vim-core acl nls -minimal
+app-emulation/qemu aio alsa bzip2 curl fdt filecaps gnutls jpeg ncurses nls opengl oss pam pin-upstream-blobs png pulseaudio python_targets_python3_11 qemu_softmmu_targets_x86_64 seccomp slirp udev usb vhost-net vnc xattr -accessibility -bpf -capstone -debug -doc -fuse -glusterfs -gtk -infiniband -io-uring -iscsi -jack -jemalloc -lzo -multipath -nfs -numa -plugins -python -python_targets_python3_10 -python_targets_python3_12 -qemu_softmmu_targets_aarch64 -qemu_softmmu_targets_alpha -qemu_softmmu_targets_arm -qemu_softmmu_targets_avr -qemu_softmmu_targets_cris -qemu_softmmu_targets_hppa -qemu_softmmu_targets_i386 -qemu_softmmu_targets_loongarch64 -qemu_softmmu_targets_m68k -qemu_softmmu_targets_microblaze -qemu_softmmu_targets_microblazeel -qemu_softmmu_targets_mips -qemu_softmmu_targets_mips64 -qemu_softmmu_targets_mips64el -qemu_softmmu_targets_mipsel -qemu_softmmu_targets_nios2 -qemu_softmmu_targets_or1k -qemu_softmmu_targets_ppc -qemu_softmmu_targets_ppc64 -qemu_softmmu_targets_riscv32 -qemu_softmmu_targets_riscv64 -qemu_softmmu_targets_rx -qemu_softmmu_targets_s390x -qemu_softmmu_targets_sh4 -qemu_softmmu_targets_sh4eb -qemu_softmmu_targets_sparc -qemu_softmmu_targets_sparc64 -qemu_softmmu_targets_tricore -qemu_softmmu_targets_xtensa -qemu_softmmu_targets_xtensaeb -qemu_user_targets_aarch64 -qemu_user_targets_aarch64_be -qemu_user_targets_alpha -qemu_user_targets_arm -qemu_user_targets_armeb -qemu_user_targets_cris -qemu_user_targets_hexagon -qemu_user_targets_hppa -qemu_user_targets_i386 -qemu_user_targets_loongarch64 -qemu_user_targets_m68k -qemu_user_targets_microblaze -qemu_user_targets_microblazeel -qemu_user_targets_mips -qemu_user_targets_mips64 -qemu_user_targets_mips64el -qemu_user_targets_mipsel -qemu_user_targets_mipsn32 -qemu_user_targets_mipsn32el -qemu_user_targets_nios2 -qemu_user_targets_or1k -qemu_user_targets_ppc -qemu_user_targets_ppc64 -qemu_user_targets_ppc64le -qemu_user_targets_riscv32 -qemu_user_targets_riscv64 -qemu_user_targets_s390x -qemu_user_targets_sh4 -qemu_user_targets_sh4eb -qemu_user_targets_sparc -qemu_user_targets_sparc32plus -qemu_user_targets_sparc64 -qemu_user_targets_x86_64 -qemu_user_targets_xtensa -qemu_user_targets_xtensaeb -rbd -sasl -sdl -sdl-image -selinux -smartcard -snappy -spice -ssh -static-user -systemtap -test -usbredir -vde -virgl -virtfs -vte -xen -zstd
+app-eselect/eselect-repository python_single_target_python3_11 -python_single_target_python3_10 -python_single_target_python3_12 -test
+app-i18n/enca iconv -doc -recode
+app-misc/ca-certificates -cacert
+app-misc/mime-types -nginx
+app-misc/pax-utils man python_single_target_python3_11 -caps -python -python_single_target_python3_10 -seccomp -test
+app-misc/resolve-march-native python_targets_python3_11 -python_targets_python3_10 -test
+app-portage/gemato gpg python_targets_python3_11 -pretty-log -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test -tools
+app-portage/gentoolkit python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -test
+app-portage/portage-utils openmp qmanifest qtegrity -static
+app-shells/bash net nls readline -afs -bashlogger -examples -mem-scramble -plugins -verify-sig
+app-shells/zsh gdbm pcre -caps -debug -doc -examples -maildir -static -valgrind
+app-text/asciidoc python_single_target_python3_11 -python_single_target_pypy3 -python_single_target_python3_10 -python_single_target_python3_12
+app-text/docbook-xsl-ns-stylesheets -ruby
+app-text/docbook-xsl-stylesheets -ruby
+app-text/hunspell l10n_en l10n_he ncurses nls readline -l10n_af -l10n_bg -l10n_ca -l10n_cs -l10n_cy -l10n_da -l10n_de -l10n_de-1901 -l10n_el -l10n_eo -l10n_es -l10n_et -l10n_fo -l10n_fr -l10n_ga -l10n_gl -l10n_hr -l10n_hu -l10n_ia -l10n_id -l10n_is -l10n_it -l10n_kk -l10n_km -l10n_ku -l10n_lt -l10n_lv -l10n_mi -l10n_mk -l10n_ms -l10n_nb -l10n_nl -l10n_nn -l10n_pl -l10n_pt -l10n_pt-BR -l10n_ro -l10n_ru -l10n_sk -l10n_sl -l10n_sq -l10n_sv -l10n_sw -l10n_tn -l10n_uk -l10n_zu -static-libs
+app-text/opensp nls -doc -static-libs -test
+app-text/po4a -test
+app-text/xmlto text -latex
+app-vim/gentoo-syntax -ignore-glep31
+dev-cpp/atkmm abi_x86_64 -abi_x86_32 -abi_x86_x32 -gtk-doc
+dev-cpp/cairomm X abi_x86_64 -abi_x86_32 -abi_x86_x32 -gtk-doc -test
+dev-cpp/glibmm abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -gtk-doc -test
+dev-cpp/gtkmm -gtk-doc -test
+dev-cpp/pangomm abi_x86_64 -abi_x86_32 -abi_x86_x32 -gtk-doc
+dev-db/sqlite abi_x86_64 icu readline -abi_x86_32 -abi_x86_x32 -debug -doc -secure-delete -static-libs -tcl -test -tools
+dev-lang/go cpu_flags_x86_sse2
+dev-lang/go-bootstrap -big-endian
+dev-lang/nasm -doc
+dev-lang/orc abi_x86_64 -abi_x86_32 -abi_x86_x32 -gtk-doc -static-libs -test
+dev-lang/perl gdbm -berkdb -debug -doc -ithreads -minimal -quadmath
+dev-lang/python ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -libedit -lto -pgo -test -tk -valgrind -verify-sig
+dev-lang/python-exec native-symlinks python_targets_pypy3 python_targets_python3_10 python_targets_python3_11 python_targets_python3_12 -test
+dev-lang/python-exec-conf python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12
+dev-lang/rust-bin abi_x86_64 cpu_flags_x86_sse2 -abi_x86_32 -abi_x86_x32 -big-endian -clippy -doc -prefix -rust-analyzer -rust-src -rustfmt -verify-sig
+dev-lang/tcl abi_x86_64 threads -abi_x86_32 -abi_x86_x32 -debug
+dev-lang/vala -test -valadoc
+dev-lang/yasm nls
+dev-libs/atk abi_x86_64 introspection -abi_x86_32 -abi_x86_x32
+dev-libs/boehm-gc abi_x86_64 large threads -abi_x86_32 -abi_x86_x32 -cxx -static-libs
+dev-libs/dbus-glib abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -static-libs -test
+dev-libs/double-conversion -test
+dev-libs/elfutils abi_x86_64 bzip2 nls utils -abi_x86_32 -abi_x86_x32 -debuginfod -lzma -static-libs -test -verify-sig -zstd
+dev-libs/ell pie -test
+dev-libs/expat abi_x86_64 unicode -abi_x86_32 -abi_x86_x32 -examples -static-libs -test
+dev-libs/fribidi abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+dev-libs/glib abi_x86_64 dbus elf mime xattr -abi_x86_32 -abi_x86_x32 -debug -gtk-doc -selinux -static-libs -sysprof -systemtap -test -utils
+dev-libs/gmp abi_x86_64 asm cpudetection cxx -abi_x86_32 -abi_x86_x32 -doc -pic -static-libs
+dev-libs/gobject-introspection python_single_target_python3_11 -doctool -gtk-doc -python_single_target_python3_10 -test
+dev-libs/icu abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -doc -examples -static-libs -test -verify-sig
+dev-libs/json-c abi_x86_64 cpu_flags_x86_rdrand -abi_x86_32 -abi_x86_x32 -static-libs -threads
+dev-libs/json-glib abi_x86_64 introspection -abi_x86_32 -abi_x86_x32 -gtk-doc -test
+dev-libs/jsoncpp -doc -test
+dev-libs/libaio abi_x86_64 -abi_x86_32 -abi_x86_x32 -split-usr -static-libs -test
+dev-libs/libassuan -verify-sig
+dev-libs/libatomic_ops abi_x86_64 -abi_x86_32 -abi_x86_x32
+dev-libs/libbsd abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs -verify-sig
+dev-libs/libcdio abi_x86_64 cxx -abi_x86_32 -abi_x86_x32 -cddb -minimal -static-libs -test
+dev-libs/libcdio-paranoia abi_x86_64 cxx -abi_x86_32 -abi_x86_x32 -static-libs -test
+dev-libs/libclc spirv -verify-sig -video_cards_nvidia -video_cards_r600 -video_cards_radeonsi
+dev-libs/libedit abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+dev-libs/libevdev abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+dev-libs/libevent abi_x86_64 clock-gettime ssl -abi_x86_32 -abi_x86_x32 -debug -malloc-replacement -static-libs -test -verbose-debug -verify-sig
+dev-libs/libffi abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -exec-static-trampoline -pax-kernel -static-libs -test
+dev-libs/libgcrypt abi_x86_64 asm cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_sse4_1 getentropy -abi_x86_32 -abi_x86_x32 -cpu_flags_x86_padlock -cpu_flags_x86_sha -doc -static-libs -verify-sig
+dev-libs/libgpg-error abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -common-lisp -static-libs -test -verify-sig
+dev-libs/libical glib introspection -doc -examples -static-libs -test -vala
+dev-libs/libinput -doc -input_devices_wacom -test
+dev-libs/libksba -static-libs -verify-sig
+dev-libs/libltdl abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+dev-libs/libnatspec -doc
+dev-libs/libnl abi_x86_64 debug python_targets_python3_11 -abi_x86_32 -abi_x86_x32 -python -python_targets_python3_10 -test -utils
+dev-libs/libpcre abi_x86_64 bzip2 cxx readline unicode zlib -abi_x86_32 -abi_x86_x32 -jit -libedit -pcre16 -pcre32 -split-usr -static-libs -valgrind
+dev-libs/libpcre2 abi_x86_64 bzip2 pcre16 readline unicode zlib -abi_x86_32 -abi_x86_x32 -jit -libedit -pcre32 -split-usr -static-libs -valgrind -verify-sig
+dev-libs/libpipeline -test
+dev-libs/libshell -man
+dev-libs/libsigc++ abi_x86_64 -abi_x86_32 -abi_x86_x32 -gtk-doc -test
+dev-libs/libtasn1 abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs -test -verify-sig
+dev-libs/libunistring abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -static-libs
+dev-libs/libusb abi_x86_64 udev -abi_x86_32 -abi_x86_x32 -debug -doc -examples -split-usr -static-libs -test
+dev-libs/libxml2 abi_x86_64 ftp icu python python_targets_python3_11 readline -abi_x86_32 -abi_x86_x32 -debug -examples -lzma -python_targets_python3_10 -python_targets_python3_12 -static-libs -test
+dev-libs/libxslt abi_x86_64 crypt python_targets_python3_11 -abi_x86_32 -abi_x86_x32 -debug -examples -python -python_targets_python3_10 -python_targets_python3_12 -static-libs
+dev-libs/lzo abi_x86_64 -abi_x86_32 -abi_x86_x32 -examples -split-usr -static-libs
+dev-libs/mpc abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+dev-libs/mpfr abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs -verify-sig
+dev-libs/nettle abi_x86_64 asm cpu_flags_x86_aes cpu_flags_x86_pclmul gmp -abi_x86_32 -abi_x86_x32 -cpu_flags_x86_sha -doc -static-libs -verify-sig
+dev-libs/npth -test
+dev-libs/nspr abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug
+dev-libs/nss abi_x86_64 cpu_flags_x86_avx2 cpu_flags_x86_sse3 utils -abi_x86_32 -abi_x86_x32 -cacert -test
+dev-libs/openssl abi_x86_64 asm cpu_flags_x86_sse2 -abi_x86_32 -abi_x86_x32 -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+dev-libs/plasma-wayland-protocols -debug
+dev-libs/popt abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -static-libs
+dev-libs/wayland abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+dev-libs/wayland-protocols -test
+dev-libs/xerces-c cpu_flags_x86_sse2 iconv icu -curl -doc -examples -static-libs -test -threads
+dev-libs/yajl abi_x86_64 -abi_x86_32 -abi_x86_x32
+dev-perl/Authen-SASL -kerberos -test
+dev-perl/Clone -test
+dev-perl/Devel-CheckLib -test
+dev-perl/Encode-Locale -test
+dev-perl/Error -test
+dev-perl/File-BaseDir -test
+dev-perl/File-DesktopEntry -test
+dev-perl/File-Listing -test
+dev-perl/File-MimeInfo -test
+dev-perl/HTML-Parser -test
+dev-perl/HTTP-CookieJar -minimal -test
+dev-perl/HTTP-Cookies -test
+dev-perl/HTTP-Date -test
+dev-perl/HTTP-Message -test
+dev-perl/HTTP-Negotiate -test
+dev-perl/IO-HTML -test
+dev-perl/IO-Socket-INET6 -test
+dev-perl/IO-Socket-SSL -examples -idn -test
+dev-perl/IPC-System-Simple -test
+dev-perl/LWP-MediaTypes -test
+dev-perl/LWP-Protocol-https -test
+dev-perl/Locale-gettext -test
+dev-perl/MIME-Charset -l10n_ja -l10n_zh -test
+dev-perl/MailTools -examples -test
+dev-perl/Module-Build -test
+dev-perl/Mozilla-CA -test
+dev-perl/Mozilla-PublicSuffix -test
+dev-perl/Net-HTTP -minimal -test
+dev-perl/Net-SSLeay -examples -minimal -test
+dev-perl/Pod-Parser -test
+dev-perl/Regexp-IPv6 -test
+dev-perl/SGMLSpm -test
+dev-perl/Socket6 -test
+dev-perl/Sub-Name -suggested -test
+dev-perl/TermReadKey -examples -test
+dev-perl/Text-CharWidth -test
+dev-perl/Text-WrapI18N -test
+dev-perl/TimeDate -test
+dev-perl/Try-Tiny -minimal -test
+dev-perl/URI -test
+dev-perl/WWW-RobotRules -test
+dev-perl/YAML-Tiny -minimal -test
+dev-perl/libwww-perl ssl -test
+dev-python/PySocks python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12
+dev-python/calver python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/certifi python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/charset-normalizer python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/cython python_targets_python3_11 -debug -doc -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/docutils python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12
+dev-python/editables python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/fasteners python_targets_python3_11 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/flit-core python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/gpep517 python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/hatchling python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/idna python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/installer python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/jaraco-context python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/jaraco-functools python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/jaraco-text python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/jinja python_targets_python3_11 -doc -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/lazy-object-proxy python_targets_python3_11 -debug -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/lxml python_targets_python3_11 threads -debug -doc -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/mako python_targets_python3_11 -doc -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/markupsafe python_targets_python3_11 -debug -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/more-itertools python_targets_python3_11 -doc -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/nspektr python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/ordered-set python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/packaging python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pathspec python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/platformdirs python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pluggy python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/ply python_targets_python3_11 -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12
+dev-python/pycairo python_targets_python3_11 -debug -doc -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pydecomp python_targets_python3_11 -python_targets_python3_10
+dev-python/pygments python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pygobject cairo python_targets_python3_11 -debug -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pyparsing python_targets_python3_11 -examples -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/pypax python_targets_python3_11 xtpax -debug -ptpax -python_targets_python3_10
+dev-python/requests python_targets_python3_11 test-rust -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -socks5 -test
+dev-python/setuptools python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/setuptools-scm python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/snakeoil python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/tomli python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/trove-classifiers python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/typing-extensions python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-python/urllib3 python_targets_python3_11 -brotli -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test -zstd
+dev-python/wheel python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test
+dev-qt/qtconcurrent -debug -test
+dev-qt/qtcore icu -debug -old-kernel -test
+dev-qt/qtdbus -debug -test
+dev-qt/qtgui X accessibility dbus egl jpeg libinput png udev vulkan wayland -debug -eglfs -evdev -gles2-only -ibus -linuxfb -test -tslib -tuio -vnc
+dev-qt/qtwayland vulkan -compositor -qml -test
+dev-qt/qtwaylandscanner -debug -test
+dev-qt/qtwidgets X dbus png -debug -gles2-only -gtk -test
+dev-qt/qtx11extras -debug -test
+dev-util/catalyst doc python_targets_python3_11 -iso -python_targets_python3_10
+dev-util/cbindgen -debug
+dev-util/cmake ncurses -doc -emacs -qt5 -test -verify-sig
+dev-util/desktop-file-utils -emacs
+dev-util/gdbus-codegen python_single_target_python3_11 -python_single_target_python3_10 -python_single_target_python3_12
+dev-util/glib-utils python_single_target_python3_11 -python_single_target_python3_10 -python_single_target_python3_12
+dev-util/glslang abi_x86_64 -abi_x86_32 -abi_x86_x32
+dev-util/meson python_targets_python3_11 -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -test -verify-sig
+dev-util/meson-format-array python_targets_python3_11 -python_targets_python3_10 -python_targets_python3_12
+dev-util/ninja -doc -emacs -test
+dev-util/pkgconf abi_x86_64 -abi_x86_32 -abi_x86_x32 -test
+dev-util/re2c -debug -test
+dev-util/spirv-llvm-translator -test
+dev-util/spirv-tools abi_x86_64 -abi_x86_32 -abi_x86_x32
+dev-util/strace elfutils -aio -perl -selinux -static -test -unwind
+dev-vcs/git blksha1 curl gpg iconv nls pcre perl python_single_target_python3_11 safe-directory webdav -cgi -cvs -doc -highlight -keyring -mediawiki -perforce -python_single_target_python3_10 -python_single_target_python3_12 -selinux -subversion -test -tk -xinetd
+gnome-base/dconf -gtk-doc -test
+gnome-base/librsvg abi_x86_64 introspection vala -abi_x86_32 -abi_x86_x32 -debug -gtk-doc
+gui-libs/gtk X cpu_flags_x86_f16c introspection wayland -aqua -broadway -cloudproviders -colord -cups -examples -ffmpeg -gstreamer -sysprof -test -vulkan
+kde-frameworks/extra-cmake-modules -doc -test
+kde-frameworks/kwayland -debug -doc -test
+mail-mta/msmtp filecaps gnutls mta nls ssl -daemon -doc -idn -keyring -sasl
+media-fonts/dejavu X -fontforge
+media-fonts/droid X
+media-fonts/fira-mono X otf -ttf
+media-fonts/font-misc-misc X nls opentype-compat
+media-fonts/liberation-fonts X -fontforge
+media-fonts/roboto X
+media-fonts/terminus-font X center-tilde otf pcf-unicode psf ru-g -a-like-o -distinct-l -pcf-8bit -quote -ru-dv -ru-i -ru-k
+media-gfx/feh exif -curl -debug -inotify -test -xinerama
+media-gfx/graphite2 abi_x86_64 -abi_x86_32 -abi_x86_x32 -perl -test
+media-gfx/qrencode png -test
+media-libs/a52dec abi_x86_64 -abi_x86_32 -abi_x86_x32 -djbfft -oss
+media-libs/alsa-lib abi_x86_64 python_single_target_python3_11 -abi_x86_32 -abi_x86_x32 -alisp -debug -doc -python -python_single_target_python3_10
+media-libs/dav1d 10bit 8bit abi_x86_64 asm -abi_x86_32 -abi_x86_x32 -test -xxhash
+media-libs/flac abi_x86_64 cpu_flags_x86_avx cpu_flags_x86_avx2 cxx ogg -abi_x86_32 -abi_x86_x32 -debug -static-libs
+media-libs/fontconfig abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -doc -test
+media-libs/freeglut abi_x86_64 -abi_x86_32 -abi_x86_x32
+media-libs/freetype X abi_x86_64 adobe-cff bzip2 cleartype-hinting png svg -abi_x86_32 -abi_x86_x32 -brotli -debug -doc -fontforge -harfbuzz -static-libs -utils
+media-libs/giflib abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -static-libs
+media-libs/glu abi_x86_64 -abi_x86_32 -abi_x86_x32
+media-libs/graphene abi_x86_64 cpu_flags_x86_sse2 introspection -abi_x86_32 -abi_x86_x32 -doc -test
+media-libs/harfbuzz abi_x86_64 cairo glib graphite icu introspection truetype -abi_x86_32 -abi_x86_x32 -debug -doc -experimental -test
+media-libs/imlib2 X abi_x86_64 bzip2 cpu_flags_x86_sse2 gif jpeg mp3 png shm svg tiff webp zlib -abi_x86_32 -abi_x86_x32 -apidoc -cpu_flags_x86_mmx -debug -eps -heif -jpeg2k -jpegxl -lzma -static-libs
+media-libs/lcms abi_x86_64 jpeg tiff -abi_x86_32 -abi_x86_x32 -doc -static-libs
+media-libs/libaom abi_x86_64 cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_mmx cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 examples -abi_x86_32 -abi_x86_x32 -doc -test
+media-libs/libass abi_x86_64 fontconfig -abi_x86_32 -abi_x86_x32 -test -verify-sig
+media-libs/libcanberra abi_x86_64 alsa gtk3 pulseaudio sound udev -abi_x86_32 -abi_x86_x32 -gnome -gstreamer -gtk2 -oss -tdb
+media-libs/libdca abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -oss
+media-libs/libdvdcss abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+media-libs/libdvdnav abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+media-libs/libdvdread abi_x86_64 css -abi_x86_32 -abi_x86_x32 -static-libs
+media-libs/libepoxy X abi_x86_64 egl -abi_x86_32 -abi_x86_x32 -test
+media-libs/libexif abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -doc
+media-libs/libglvnd X abi_x86_64 -abi_x86_32 -abi_x86_x32 -test
+media-libs/libid3tag abi_x86_64 -abi_x86_32 -abi_x86_x32
+media-libs/libjpeg-turbo abi_x86_64 -abi_x86_32 -abi_x86_x32 -java -static-libs
+media-libs/libogg abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+media-libs/libpng abi_x86_64 cpu_flags_x86_sse -abi_x86_32 -abi_x86_x32 -apng -static-libs
+media-libs/libpulse X abi_x86_64 asyncns dbus glib systemd -abi_x86_32 -abi_x86_x32 -doc -gtk -selinux -test -valgrind
+media-libs/libsndfile abi_x86_64 alsa -abi_x86_32 -abi_x86_x32 -minimal -sqlite -test
+media-libs/libvorbis abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs -test
+media-libs/libvpx abi_x86_64 highbitdepth postproc threads -abi_x86_32 -abi_x86_x32 -doc -static-libs -test
+media-libs/libwebp abi_x86_64 cpu_flags_x86_sse2 cpu_flags_x86_sse4_1 gif jpeg opengl png tiff -abi_x86_32 -abi_x86_x32 -static-libs -swap-16bit-csp
+media-libs/mesa X abi_x86_64 cpu_flags_x86_sse2 gles2 llvm proprietary-codecs video_cards_intel vulkan wayland zstd -abi_x86_32 -abi_x86_x32 -d3d9 -debug -gles1 -lm-sensors -opencl -osmesa -selinux -test -unwind -vaapi -valgrind -vdpau -video_cards_d3d12 -video_cards_freedreno -video_cards_lavapipe -video_cards_lima -video_cards_nouveau -video_cards_panfrost -video_cards_r300 -video_cards_r600 -video_cards_radeon -video_cards_radeonsi -video_cards_v3d -video_cards_vc4 -video_cards_virgl -video_cards_vivante -video_cards_vmware -vulkan-overlay -xa -zink
+media-libs/opus abi_x86_64 cpu_flags_x86_sse hardened -abi_x86_32 -abi_x86_x32 -custom-modes -debug -doc -static-libs -test
+media-libs/sbc abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+media-libs/speexdsp abi_x86_64 cpu_flags_x86_sse cpu_flags_x86_sse2 -abi_x86_32 -abi_x86_x32
+media-libs/tiff abi_x86_64 cxx jpeg zlib -abi_x86_32 -abi_x86_x32 -jbig -lzma -static-libs -test -verify-sig -webp -zstd
+media-libs/vulkan-loader X abi_x86_64 wayland -abi_x86_32 -abi_x86_x32 -layers
+media-libs/webrtc-audio-processing abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+media-libs/x264 abi_x86_64 cpu_flags_x86_sse interlaced pic threads -abi_x86_32 -abi_x86_x32 -opencl -static-libs
+media-libs/xvid abi_x86_64 pic -abi_x86_32 -abi_x86_x32 -examples
+media-plugins/alsa-plugins abi_x86_64 mix pulseaudio usb_stream -abi_x86_32 -abi_x86_x32 -arcam_av -debug -ffmpeg -jack -libsamplerate -oss -speex
+media-sound/lame abi_x86_64 frontend -abi_x86_32 -abi_x86_x32 -cpu_flags_x86_mmx -debug -mp3rtp -sndfile -static-libs
+media-sound/mpg123 abi_x86_64 alsa cpu_flags_x86_sse ipv6 pulseaudio -abi_x86_32 -abi_x86_x32 -coreaudio -cpu_flags_x86_3dnow -cpu_flags_x86_3dnowext -cpu_flags_x86_mmx -int-quality -jack -nas -oss -portaudio -sdl
+media-sound/pavucontrol nls
+media-sound/pulseaudio abi_x86_64 bluetooth daemon glib -abi_x86_32 -abi_x86_x32 -jack -ofono-headset
+media-sound/pulseaudio-daemon X alsa alsa-plugin asyncns bluetooth dbus gdbm glib ssl systemd udev webrtc-aec -aptx -elogind -equalizer -fftw -gstreamer -jack -ldac -lirc -ofono-headset -orc -oss -selinux -sox -system-wide -tcpd -test -valgrind -zeroconf
+media-video/ffmpeg X abi_x86_64 alsa bzip2 cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_fma3 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 dav1d encode fftools_aviocat fftools_cws2fws fftools_ffescape fftools_ffeval fftools_ffhash fftools_fourcc2pixfmt fftools_graph2dot fftools_ismindex fftools_pktdumper fftools_qt-faststart fftools_sidxindex fftools_trasher gnutls gpl iconv lcms mp3 network opengl pic postproc pulseaudio svg threads truetype vorbis vulkan x264 xvid zlib -abi_x86_32 -abi_x86_x32 -amf -amr -amrenc -appkit -bluray -bs2b -cdio -chromaprint -chromium -codec2 -cpu_flags_x86_3dnow -cpu_flags_x86_3dnowext -cpu_flags_x86_fma4 -cpu_flags_x86_xop -cpudetection -cuda -debug -doc -fdk -flite -fontconfig -frei0r -fribidi -gcrypt -gme -gmp -gsm -hardcoded-tables -iec61883 -ieee1394 -jack -jpeg2k -jpegxl -kvazaar -ladspa -libaom -libaribb24 -libass -libcaca -libdrm -libilbc -libplacebo -librtmp -libsoxr -libtesseract -libv4l -libxml2 -lv2 -lzma -mipsdspr1 -mipsdspr2 -mipsfpu -mmal -modplug -nvenc -openal -opencl -openh264 -openssl -opus -oss -qsv -rav1e -rubberband -samba -sdl -snappy -sndio -speex -srt -ssh -static-libs -svt-av1 -test -theora -twolame -v4l -vaapi -vdpau -verify-sig -vidstab -vmaf -vpx -webp -x265 -zeromq -zimg -zvbi
+media-video/mplayer X a52 alsa cdio cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_fma3 cpu_flags_x86_mmx cpu_flags_x86_mmxext cpu_flags_x86_sse cpu_flags_x86_sse2 cpu_flags_x86_sse3 cpu_flags_x86_sse4_1 cpu_flags_x86_sse4_2 cpu_flags_x86_ssse3 dts dvd dvdnav enca encode iconv ipv6 jpeg libass mp3 network opengl osdmenu png pulseaudio shm truetype unicode vorbis x264 xscreensaver xv xvid -aalib -aqua -bidi -bl -bluray -bs2b -cddb -cdparanoia -cpu_flags_x86_3dnow -cpu_flags_x86_3dnowext -cpu_flags_x86_fma4 -cpu_flags_x86_xop -cpudetection -debug -dga -doc -dv -dvb -faac -faad -fbcon -ftp -ggi -gsm -jack -joystick -ladspa -libcaca -libmpeg2 -lirc -live -lzo -mad -md5sum -mng -nas -openal -oss -pnm -pvr -radio -rar -rtc -rtmp -samba -sdl -selinux -speex -tga -theora -toolame -tremor -twolame -v4l -vcd -vdpau -video_cards_mga -vidix -xinerama -yuv4mpeg -zoran
+net-analyzer/tcpdump drop-root samba smi ssl -suid -test -verify-sig
+net-dns/c-ares abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs -test -verify-sig
+net-dns/libidn2 abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -static-libs -verify-sig
+net-firewall/iptables -conntrack -netlink -nftables -pcap -split-usr -static-libs
+net-ftp/lftp gnutls nls ssl -convert-mozilla-cookies -idn -socks5 -verify-file
+net-libs/gnutls abi_x86_64 cxx idn nls openssl seccomp tls-heartbeat zlib -abi_x86_32 -abi_x86_x32 -brotli -dane -doc -examples -pkcs11 -sslv2 -sslv3 -static-libs -test -test-full -tools -verify-sig -zstd
+net-libs/libasyncns abi_x86_64 -abi_x86_32 -abi_x86_x32 -debug -doc
+net-libs/libmnl -examples -verify-sig
+net-libs/libnsl abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+net-libs/libpcap abi_x86_64 bluetooth dbus usb -abi_x86_32 -abi_x86_x32 -netlink -rdma -remote -static-libs -test -verify-sig -yydebug
+net-libs/libslirp -static-libs -valgrind
+net-libs/libtirpc abi_x86_64 -abi_x86_32 -abi_x86_x32 -kerberos -split-usr -static-libs
+net-libs/nghttp2 abi_x86_64 systemd xml -abi_x86_32 -abi_x86_x32 -debug -hpack-tools -jemalloc -static-libs -test -utils
+net-libs/nodejs cpu_flags_x86_sse2 icu npm snapshot ssl system-icu system-ssl -corepack -debug -doc -inspector -lto -pax-kernel -test
+net-mail/mailbase pam
+net-misc/chrony caps cmdmon nettle ntp nts phc readline refclock rtc seccomp sechash -debug -html -libtomcrypt -nss -pps -samba -selinux -verify-sig
+net-misc/curl abi_x86_64 adns alt-svc curl_ssl_openssl ftp hsts http2 imap openssl pop3 progress-meter smtp ssl tftp -abi_x86_32 -abi_x86_x32 -brotli -curl_ssl_gnutls -curl_ssl_mbedtls -curl_ssl_rustls -gnutls -gopher -idn -kerberos -ldap -mbedtls -nghttp3 -rtmp -rustls -samba -ssh -sslv3 -static-libs -telnet -test -verify-sig -websockets -zstd
+net-misc/dhcpcd embedded ipv6 privsep udev -debug
+net-misc/iputils arping filecaps nls -caps -clockdiff -doc -idn -test -tracepath
+net-misc/openssh pam pie ssl -X -audit -debug -kerberos -ldns -libedit -livecd -security-key -selinux -static -test -verify-sig -xmss
+net-misc/rsync acl iconv python_single_target_python3_11 ssl xattr -examples -lz4 -python_single_target_python3_10 -rrsync -stunnel -system-zlib -verify-sig -xxhash -zstd
+net-misc/socat ipv6 readline ssl -tcpd
+net-misc/wget ipv6 nls pcre ssl zlib -cookie-check -debug -gnutls -idn -metalink -ntlm -static -test -uuid -verify-sig
+net-wireless/bluez abi_x86_64 mesh obex python_single_target_python3_11 readline systemd udev -abi_x86_32 -abi_x86_x32 -btpclient -cups -debug -deprecated -doc -experimental -extra-tools -midi -python_single_target_python3_10 -python_single_target_python3_12 -selinux -test -test-programs
+net-wireless/wpa_supplicant dbus fils hs2-0 mbo mesh readline tkip -ap -broadcom-sta -eap-sim -eapol-test -fasteap -macsec -p2p -privsep -ps3 -qt5 -selinux -smartcard -tdls -uncommon-eap-types -wep -wimax -wps
+sec-keys/openpgp-keys-gentoo-release -test
+sys-apps/acl abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -split-usr -static-libs
+sys-apps/attr abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -debug -split-usr -static-libs
+sys-apps/baselayout -split-usr
+sys-apps/coreutils acl nls openssl xattr -caps -gmp -hostname -kill -multicall -selinux -split-usr -static -test -vanilla -verify-sig
+sys-apps/dbus X abi_x86_64 systemd -abi_x86_32 -abi_x86_x32 -debug -doc -elogind -selinux -static-libs -test -valgrind
+sys-apps/debianutils installkernel -static
+sys-apps/diffutils nls -verify-sig
+sys-apps/dtc -static-libs -yaml
+sys-apps/elfix xtpax -ptpax -test
+sys-apps/file abi_x86_64 bzip2 python_targets_python3_11 seccomp zlib -abi_x86_32 -abi_x86_x32 -lzip -lzma -python -python_targets_python3_10 -static-libs -verify-sig -zstd
+sys-apps/findutils nls -selinux -static -test -verify-sig
+sys-apps/gawk nls readline -mpfr -pma -verify-sig
+sys-apps/grep egrep-fgrep nls pcre -static -verify-sig
+sys-apps/groff X -examples -uchardet
+sys-apps/hdparm -static
+sys-apps/help2man nls
+sys-apps/iproute2 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs -selinux -split-usr
+sys-apps/kbd nls pam -selinux -test
+sys-apps/kmod lzma python_targets_python3_11 tools zlib zstd -debug -doc -pkcs7 -python -python_targets_python3_10 -static-libs
+sys-apps/less pcre
+sys-apps/lm-sensors abi_x86_64 -abi_x86_32 -abi_x86_x32 -contrib -selinux -sensord -static-libs
+sys-apps/man-db manpager nls seccomp zlib -selinux -static-libs
+sys-apps/man-pages -l10n_cs -l10n_da -l10n_de -l10n_el -l10n_es -l10n_fi -l10n_fr -l10n_hu -l10n_id -l10n_it -l10n_ja -l10n_mk -l10n_nb -l10n_nl -l10n_pl -l10n_pt-BR -l10n_ro -l10n_ru -l10n_sr -l10n_sv -l10n_uk -l10n_vi -l10n_zh-CN
+sys-apps/net-tools arp hostname ipv6 nls -nis -plipconfig -selinux -slattach -static
+sys-apps/pciutils abi_x86_64 kmod udev zlib -abi_x86_32 -abi_x86_x32 -dns -static-libs
+sys-apps/portage ipc native-extensions python_targets_python3_11 rsync-verify xattr -apidoc -build -doc -gentoo-dev -python_targets_pypy3 -python_targets_python3_10 -python_targets_python3_12 -selinux -test
+sys-apps/sandbox abi_x86_32 abi_x86_64 nnp -abi_x86_x32
+sys-apps/sed acl nls -selinux -static -verify-sig
+sys-apps/shadow acl nls pam xattr -audit -bcrypt -cracklib -selinux -skey -split-usr -su -verify-sig
+sys-apps/systemd abi_x86_64 acl cryptsetup dns-over-tls elfutils gcrypt kmod lz4 openssl pam pcre python_single_target_python3_11 resolvconf seccomp sysv-utils zstd -abi_x86_32 -abi_x86_x32 -apparmor -audit -boot -cgroup-hybrid -curl -fido2 -gnutls -homed -http -idn -importd -iptables -kernel-install -lzma -pkcs11 -policykit -pwquality -python_single_target_python3_10 -python_single_target_python3_12 -qrcode -secureboot -selinux -split-usr -test -tpm -ukify -vanilla -xkb
+sys-apps/texinfo nls standalone -static
+sys-apps/usbutils python_single_target_python3_11 -python -python_single_target_python3_10
+sys-apps/util-linux abi_x86_64 cramfs hardlink logger ncurses nls pam python python_targets_python3_11 readline su suid systemd udev unicode -abi_x86_32 -abi_x86_x32 -audit -build -caps -cryptsetup -fdformat -kill -magic -python_targets_python3_10 -rtas -selinux -slang -split-usr -static-libs -test -tty-helpers -verify-sig
+sys-auth/pam_mktemp prevent-removal -selinux
+sys-auth/pambase mktemp nullok passwdqc systemd yescrypt -caps -debug -elogind -gnome-keyring -homed -minimal -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -selinux -sha512
+sys-devel/autoconf -emacs
+sys-devel/automake -test
+sys-devel/bc readline -libedit -static
+sys-devel/binutils nls plugins -cet -doc -gold -gprofng -multitarget -pgo -static-libs -test -vanilla -zstd
+sys-devel/binutils-config native-symlinks
+sys-devel/bison nls -examples -static -test -verify-sig
+sys-devel/clang abi_x86_64 extra llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_LoongArch llvm_targets_MSP430 llvm_targets_Mips llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_VE llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore pie python_single_target_python3_11 static-analyzer xml -abi_x86_32 -abi_x86_x32 -debug -doc -ieee-long-double -llvm_targets_ARC -llvm_targets_CSKY -llvm_targets_DirectX -llvm_targets_M68k -llvm_targets_SPIRV -llvm_targets_Xtensa -python_single_target_python3_10 -python_single_target_python3_12 -test -verify-sig
+sys-devel/clang-common hardened -default-compiler-rt -default-libcxx -default-lld -llvm-libunwind -verify-sig
+sys-devel/clang-runtime abi_x86_32 abi_x86_64 compiler-rt openmp sanitize -abi_x86_x32 -libcxx
+sys-devel/clang-toolchain-symlinks native-symlinks -gcc-symlinks -multilib-symlinks
+sys-devel/flex abi_x86_64 nls -abi_x86_32 -abi_x86_x32 -static -test
+sys-devel/gcc cxx default-stack-clash-protection default-znow fortran hardened multilib nls nptl openmp pie sanitize ssp -ada -cet -custom-cflags -d -debug -doc -fixed-point -go -graphite -ieee-long-double -jit -libssp -lto -modula2 -objc -objc++ -objc-gc -pch -pgo -systemtap -test -valgrind -vanilla -vtv -zstd
+sys-devel/gcc-config cc-wrappers native-symlinks
+sys-devel/gettext abi_x86_64 acl cxx ncurses nls openmp -abi_x86_32 -abi_x86_x32 -doc -emacs -git -java -static-libs -verify-sig
+sys-devel/libtool -vanilla
+sys-devel/lld -debug -test -verify-sig -zstd
+sys-devel/lld-toolchain-symlinks native-symlinks -multilib-symlinks
+sys-devel/llvm abi_x86_64 binutils-plugin libffi llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_LoongArch llvm_targets_MSP430 llvm_targets_Mips llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_VE llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore ncurses xml -abi_x86_32 -abi_x86_x32 -debug -doc -exegesis -libedit -llvm_targets_ARC -llvm_targets_CSKY -llvm_targets_DirectX -llvm_targets_M68k -llvm_targets_SPIRV -llvm_targets_Xtensa -test -verify-sig -xar -z3 -zstd
+sys-devel/llvm-common -emacs -verify-sig
+sys-devel/llvm-toolchain-symlinks native-symlinks -multilib-symlinks
+sys-devel/m4 nls -examples -verify-sig
+sys-devel/make nls -guile -static -verify-sig
+sys-devel/patch xattr -static -test -verify-sig
+sys-firmware/edk2-ovmf-bin -secureboot
+sys-firmware/ipxe binary ipv6 qemu usb -efi -efi64 -iso -lkrn -savedconfig -secureboot -undi -vmware
+sys-firmware/sgabios binary
+sys-fs/cryptsetup argon2 nls openssl udev -fips -gcrypt -kernel -nettle -pwquality -ssh -static -static-libs -test -urandom
+sys-fs/dosfstools iconv -compat -test
+sys-fs/e2fsprogs abi_x86_64 nls tools -abi_x86_32 -abi_x86_x32 -cron -fuse -split-usr -static-libs -test
+sys-fs/fuse abi_x86_64 suid -abi_x86_32 -abi_x86_x32 -test
+sys-fs/lvm2 readline systemd udev -lvm -sanlock -selinux -static -static-libs -thin -valgrind
+sys-fs/squashfs-tools-ng lzma tools -lz4 -lzo -selinux -zstd
+sys-kernel/installkernel-gentoo -grub
+sys-kernel/linux-firmware redistributable -compress-xz -compress-zstd -initramfs -savedconfig -unknown-license
+sys-kernel/linux-headers -headers-only
+sys-libs/binutils-libs abi_x86_64 nls -64-bit-bfd -abi_x86_32 -abi_x86_x32 -cet -multitarget -static-libs -test
+sys-libs/compiler-rt abi_x86_32 abi_x86_64 clang -debug -test -verify-sig
+sys-libs/compiler-rt-sanitizers abi_x86_32 abi_x86_64 asan cfi clang dfsan gwp-asan hwasan libfuzzer lsan memprof msan profile safestack scudo tsan ubsan xray -debug -orc -shadowcallstack -test -verify-sig
+sys-libs/gdbm abi_x86_64 berkdb nls readline -abi_x86_32 -abi_x86_x32 -static-libs -test -verify-sig
+sys-libs/glibc multiarch multilib ssp stack-realign static-libs systemd -audit -caps -cet -compile-locales -crypt -custom-cflags -doc -gd -hash-sysv-compat -headers-only -multilib-bootstrap -nscd -perl -profile -selinux -suid -systemtap -test -vanilla
+sys-libs/gpm abi_x86_64 -abi_x86_32 -abi_x86_x32 -selinux -split-usr
+sys-libs/libcap abi_x86_64 pam -abi_x86_32 -abi_x86_x32 -split-usr -static-libs -tools
+sys-libs/libcap-ng python_targets_python3_11 -python -python_targets_python3_10 -static-libs
+sys-libs/libomp abi_x86_32 abi_x86_64 python_single_target_python3_11 -abi_x86_x32 -debug -gdb-plugin -hwloc -llvm_targets_AMDGPU -llvm_targets_NVPTX -offload -ompt -python_single_target_python3_10 -python_single_target_python3_12 -test -verify-sig
+sys-libs/libseccomp abi_x86_64 python_targets_python3_11 -abi_x86_32 -abi_x86_x32 -experimental-loong -python -python_targets_python3_10 -static-libs -test
+sys-libs/libutempter -static-libs
+sys-libs/libxcrypt abi_x86_32 abi_x86_64 compat system -abi_x86_x32 -headers-only -split-usr -static-libs -test
+sys-libs/ncurses abi_x86_64 cxx gpm stack-realign tinfo -abi_x86_32 -abi_x86_x32 -ada -debug -doc -minimal -profile -split-usr -static-libs -test -trace -verify-sig
+sys-libs/pam abi_x86_64 filecaps -abi_x86_32 -abi_x86_x32 -audit -berkdb -debug -nis -selinux -split-usr
+sys-libs/readline abi_x86_64 unicode -abi_x86_32 -abi_x86_x32 -split-usr -static-libs -utils -verify-sig
+sys-libs/timezone-data nls -leaps-timezone -zic-slim
+sys-libs/zlib abi_x86_64 -abi_x86_32 -abi_x86_x32 -minizip -split-usr -static-libs -verify-sig
+sys-power/powertop X nls
+sys-process/lsof -rpc -selinux
+sys-process/procps abi_x86_64 kill ncurses nls systemd unicode -abi_x86_32 -abi_x86_x32 -elogind -modern-top -selinux -split-usr -static-libs -test
+sys-process/psmisc X nls -apparmor -selinux -test
+virtual/acl abi_x86_64 -abi_x86_32 -abi_x86_x32 -static-libs
+virtual/glu abi_x86_64 -abi_x86_32 -abi_x86_x32
+virtual/libcrypt abi_x86_32 abi_x86_64 -abi_x86_x32 -static-libs
+virtual/libelf abi_x86_64 -abi_x86_32 -abi_x86_x32
+virtual/libiconv abi_x86_64 -abi_x86_32 -abi_x86_x32
+virtual/libintl abi_x86_64 -abi_x86_32 -abi_x86_x32
+virtual/libudev abi_x86_64 systemd -abi_x86_32 -abi_x86_x32
+virtual/libusb abi_x86_64 udev -abi_x86_32 -abi_x86_x32
+virtual/notification-daemon -gnome -kde
+virtual/opengl abi_x86_64 -abi_x86_32 -abi_x86_x32
+virtual/openssh ssl
+virtual/perl-libnet ssl
+virtual/rust abi_x86_64 -abi_x86_32 -abi_x86_x32 -rustfmt
+virtual/ssh -minimal
+virtual/tmpfiles systemd
+virtual/udev systemd
+www-client/firefox X clang dbus hardened l10n_he pulseaudio system-av1 system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-webp wayland -debug -eme-free -geckodriver -gmp-autoupdate -hwaccel -jack -l10n_ach -l10n_af -l10n_an -l10n_ar -l10n_ast -l10n_az -l10n_be -l10n_bg -l10n_bn -l10n_br -l10n_bs -l10n_ca -l10n_ca-valencia -l10n_cak -l10n_cs -l10n_cy -l10n_da -l10n_de -l10n_dsb -l10n_el -l10n_en-CA -l10n_en-GB -l10n_eo -l10n_es-AR -l10n_es-CL -l10n_es-ES -l10n_es-MX -l10n_et -l10n_eu -l10n_fa -l10n_ff -l10n_fi -l10n_fr -l10n_fur -l10n_fy -l10n_ga -l10n_gd -l10n_gl -l10n_gn -l10n_gu -l10n_hi -l10n_hr -l10n_hsb -l10n_hu -l10n_hy -l10n_ia -l10n_id -l10n_is -l10n_it -l10n_ja -l10n_ka -l10n_kab -l10n_kk -l10n_km -l10n_kn -l10n_ko -l10n_lij -l10n_lt -l10n_lv -l10n_mk -l10n_mr -l10n_ms -l10n_my -l10n_nb -l10n_ne -l10n_nl -l10n_nn -l10n_oc -l10n_pa -l10n_pl -l10n_pt-BR -l10n_pt-PT -l10n_rm -l10n_ro -l10n_ru -l10n_sc -l10n_sco -l10n_si -l10n_sk -l10n_sl -l10n_son -l10n_sq -l10n_sr -l10n_sv -l10n_szl -l10n_ta -l10n_te -l10n_th -l10n_tl -l10n_tr -l10n_trs -l10n_uk -l10n_ur -l10n_uz -l10n_vi -l10n_xh -l10n_zh-CN -l10n_zh-TW -libproxy -lto -openh264 -pgo -screencast -selinux -sndio -system-png -system-python-libs -wifi
+www-client/w3m X gpm nls ssl unicode -fbcon -gdk-pixbuf -imlib -l10n_ja -lynxkeymap -nntp -xface
+x11-apps/luit -verify-sig
+x11-apps/xinit -twm
+x11-base/xcb-proto python_targets_python3_11 -python_targets_python3_10 -python_targets_python3_12
+x11-base/xorg-drivers input_devices_libinput video_cards_intel -input_devices_elographics -input_devices_evdev -input_devices_joystick -input_devices_synaptics -input_devices_vmmouse -input_devices_void -input_devices_wacom -video_cards_amdgpu -video_cards_ast -video_cards_dummy -video_cards_fbdev -video_cards_freedreno -video_cards_geode -video_cards_i915 -video_cards_mga -video_cards_nouveau -video_cards_nvidia -video_cards_omap -video_cards_qxl -video_cards_r128 -video_cards_radeon -video_cards_radeonsi -video_cards_siliconmotion -video_cards_tegra -video_cards_vc4 -video_cards_vesa -video_cards_via -video_cards_virtualbox -video_cards_vmware
+x11-base/xorg-proto -test
+x11-base/xorg-server systemd udev xorg -debug -elogind -minimal -selinux -suid -test -unwind -xcsecurity -xephyr -xnest -xvfb
+x11-libs/cairo X abi_x86_64 glib -abi_x86_32 -abi_x86_x32 -aqua -debug -gtk-doc -test
+x11-libs/gdk-pixbuf abi_x86_64 introspection jpeg tiff -abi_x86_32 -abi_x86_x32 -gtk-doc -test
+x11-libs/gtk+ X abi_x86_64 introspection wayland -abi_x86_32 -abi_x86_x32 -aqua -broadway -cloudproviders -colord -cups -examples -gtk-doc -sysprof -test -vim-syntax -xinerama
+x11-libs/libICE abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/libSM abi_x86_64 uuid -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libX11 abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+x11-libs/libXScrnSaver abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXau abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXaw abi_x86_64 -abi_x86_32 -abi_x86_x32 -deprecated -doc
+x11-libs/libXcomposite abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXcursor abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXdamage abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/libXdmcp abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXext abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXfixes abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXfont2 bzip2 truetype -doc
+x11-libs/libXft abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXi abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXinerama abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXmu abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXpm abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+x11-libs/libXrandr abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXrender abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/libXt abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc -test
+x11-libs/libXtst abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXv abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libXxf86vm abi_x86_64 -abi_x86_32 -abi_x86_x32 -doc
+x11-libs/libdrm abi_x86_64 video_cards_intel -abi_x86_32 -abi_x86_x32 -valgrind -video_cards_amdgpu -video_cards_exynos -video_cards_freedreno -video_cards_nouveau -video_cards_omap -video_cards_radeon -video_cards_tegra -video_cards_vc4 -video_cards_vivante -video_cards_vmware
+x11-libs/libnotify abi_x86_64 introspection -abi_x86_32 -abi_x86_x32 -gtk-doc -test
+x11-libs/libpciaccess abi_x86_64 zlib -abi_x86_32 -abi_x86_x32
+x11-libs/libxcb abi_x86_64 xkb -abi_x86_32 -abi_x86_x32 -doc -selinux -test
+x11-libs/libxkbcommon X abi_x86_64 wayland -abi_x86_32 -abi_x86_x32 -doc -static-libs -test -tools
+x11-libs/libxkbfile abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/libxshmfence abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/pango X abi_x86_64 introspection -abi_x86_32 -abi_x86_x32 -debug -sysprof -test
+x11-libs/pixman abi_x86_64 cpu_flags_x86_mmxext cpu_flags_x86_sse2 cpu_flags_x86_ssse3 -abi_x86_32 -abi_x86_x32 -loongson2f -static-libs -test
+x11-libs/wxGTK X abi_x86_64 libnotify lzma opengl spell tiff wayland -abi_x86_32 -abi_x86_x32 -curl -debug -doc -gstreamer -keyring -pch -sdl -test -webkit
+x11-libs/xcb-util abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/xcb-util-image abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/xcb-util-keysyms abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/xcb-util-renderutil abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/xcb-util-wm abi_x86_64 -abi_x86_32 -abi_x86_x32
+x11-libs/xtrans -doc
+x11-misc/arandr python_targets_python3_11 -python_targets_python3_10
+x11-misc/dmenu -savedconfig -xinerama
+x11-misc/shared-mime-info -test
+x11-misc/xdg-utils dbus -doc -gnome
+x11-misc/xdotool -doc -examples
+x11-misc/xkeyboard-config -test
+x11-terms/xterm openpty truetype unicode -Xaw3d -sixel -toolbar -verify-sig -xinerama
+x11-themes/adwaita-icon-theme branding

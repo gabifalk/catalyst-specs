@@ -1,0 +1,13 @@
+subarch: amd64
+target: stage3
+version_stamp: gabi-hardened-desktop-systemd-mergedusr-@TIMESTAMP@
+rel_type: mergedusr
+profile: gabi:hardened-desktop-systemd-mergedusr
+snapshot_treeish: @SNAPSHOT@
+source_subpath: mergedusr/stage1-amd64-gabi-hardened-desktop-systemd-mergedusr-@TIMESTAMP@.tar.xz
+version_stamp: gabi-hardened-desktop-systemd-mergedusr-@TIMESTAMP@
+compression_mode: pixz
+portage_confdir: @DIR@/config/stage13
+portage_prefix: releng
+pkgcache_path: /var/cache/binpkgs
+repos: /var/db/repos/gabi

@@ -1,0 +1,189 @@
+app-admin/eselect -doc -emacs -vim-syntax
+app-admin/perl-cleaner -pkgcore
+app-alternatives/awk gawk -busybox -mawk -nawk
+app-alternatives/bc gnu -gh
+app-alternatives/bzip2 reference -lbzip2 -pbzip2
+app-alternatives/gzip reference -pigz
+app-alternatives/lex flex -reflex
+app-alternatives/sh bash -busybox -dash -ksh -lksh -mksh
+app-alternatives/tar gnu -libarchive
+app-alternatives/yacc bison -byacc -reference
+app-arch/bzip2 -abi_x86_32 -static -static-libs -verify-sig
+app-arch/gzip -pic -static -verify-sig
+app-arch/libarchive acl bzip2 e2fsprogs iconv lzma xattr -abi_x86_32 -blake2 -expat -lz4 -lzo -nettle -static-libs -verify-sig -zstd
+app-arch/lz4 -abi_x86_32 -static-libs
+app-arch/tar acl nls xattr -minimal -verify-sig
+app-arch/unzip bzip2 -natspec
+app-arch/xz-utils extra-filters nls -abi_x86_32 -doc -pgo -static-libs -verify-sig
+app-arch/zstd lzma zlib -abi_x86_32 -lz4 -static-libs -test
+app-crypt/gnupg bzip2 nls readline smartcard ssl -doc -ldap -test -tofu -tools -usb -user-socket -verify-sig -wks-server
+app-crypt/gpgme cxx python_targets_python3_11 -common-lisp -debug -python -python_targets_python3_10 -qt5 -static-libs -test -verify-sig
+app-crypt/libb2 openmp -abi_x86_32 -native-cflags -static-libs
+app-crypt/pinentry ncurses -X -caps -efl -emacs -gtk -keyring -qt5 -verify-sig -wayland
+app-crypt/rhash nls ssl -abi_x86_32 -debug -static-libs
+app-editors/nano ncurses nls spell -debug -justify -magic -minimal -static
+app-editors/vim acl gpm lua_single_target_lua5-1 nls python_single_target_python3_11 -X -crypt -cscope -debug -lua -lua_single_target_lua5-3 -lua_single_target_lua5-4 -lua_single_target_luajit -minimal -perl -python -python_single_target_python3_10 -racket -ruby -selinux -sound -tcl -terminal -vim-pager
+app-editors/vim-core acl nls -minimal
+app-misc/ca-certificates -cacert
+app-misc/mime-types -nginx
+app-misc/pax-utils man python_single_target_python3_11 -caps -python -python_single_target_python3_10 -test
+app-portage/gemato gpg python_targets_python3_11 -pretty-log -python_targets_python3_10 -test -tools
+app-portage/gentoolkit python_targets_python3_11 -python_targets_python3_10 -test
+app-portage/portage-utils openmp qmanifest qtegrity -static
+app-shells/bash net nls -afs -bashlogger -examples -mem-scramble -plugins -verify-sig
+app-text/docbook-xsl-ns-stylesheets -ruby
+app-text/docbook-xsl-stylesheets -ruby
+app-text/opensp nls -doc -static-libs -test
+app-text/po4a -test
+app-text/xmlto -latex -text
+app-vim/gentoo-syntax -ignore-glep31
+dev-db/sqlite readline -abi_x86_32 -debug -doc -icu -secure-delete -static-libs -tcl -test -tools
+dev-lang/perl gdbm -berkdb -debug -doc -ithreads -minimal -quadmath
+dev-lang/python ensurepip gdbm ncurses readline sqlite ssl -bluetooth -build -debug -examples -libedit -lto -pgo -test -tk -valgrind -verify-sig
+dev-lang/python-exec -test
+dev-lang/python-exec-conf python_targets_python3_11 -python_targets_python3_10
+dev-lang/tcl threads -abi_x86_32 -debug
+dev-libs/expat unicode -abi_x86_32 -examples -static-libs -test
+dev-libs/gmp asm cpudetection cxx -abi_x86_32 -doc -pic -static-libs
+dev-libs/jsoncpp -doc -test
+dev-libs/libassuan -verify-sig
+dev-libs/libffi -abi_x86_32 -debug -pax-kernel -static-libs -test
+dev-libs/libgcrypt asm cpu_flags_x86_aes cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_sse4_1 getentropy -abi_x86_32 -cpu_flags_x86_padlock -cpu_flags_x86_sha -doc -static-libs -verify-sig
+dev-libs/libgpg-error nls -abi_x86_32 -common-lisp -static-libs -test -verify-sig
+dev-libs/libksba -static-libs -verify-sig
+dev-libs/libltdl -abi_x86_32 -static-libs
+dev-libs/libpcre2 bzip2 pcre16 readline unicode zlib -abi_x86_32 -jit -libedit -pcre32 -static-libs -valgrind -verify-sig
+dev-libs/libpipeline -test
+dev-libs/libtasn1 -abi_x86_32 -static-libs -test -verify-sig
+dev-libs/libunistring -abi_x86_32 -doc -static-libs
+dev-libs/libxml2 ftp python python_targets_python3_11 readline -abi_x86_32 -debug -examples -icu -lzma -python_targets_python3_10 -static-libs -test
+dev-libs/libxslt crypt python_targets_python3_11 -abi_x86_32 -debug -examples -python -python_targets_python3_10 -static-libs
+dev-libs/mpc -abi_x86_32 -static-libs
+dev-libs/mpfr -abi_x86_32 -static-libs -verify-sig
+dev-libs/nettle asm cpu_flags_x86_aes cpu_flags_x86_pclmul gmp -abi_x86_32 -cpu_flags_x86_sha -doc -static-libs -verify-sig
+dev-libs/npth -test
+dev-libs/openssl asm -abi_x86_32 -fips -ktls -rfc3779 -sctp -static-libs -test -tls-compression -vanilla -verify-sig -weak-ssl-ciphers
+dev-libs/popt nls -abi_x86_32 -static-libs
+dev-perl/Locale-gettext -test
+dev-perl/MIME-Charset -l10n_ja -l10n_zh -test
+dev-perl/Module-Build -test
+dev-perl/Pod-Parser -test
+dev-perl/SGMLSpm -test
+dev-perl/TermReadKey -examples -test
+dev-perl/Text-CharWidth -test
+dev-perl/Text-WrapI18N -test
+dev-perl/YAML-Tiny -minimal -test
+dev-python/PySocks python_targets_python3_11 -python_targets_python3_10
+dev-python/calver python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/certifi python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/charset-normalizer python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/cython python_targets_python3_11 -debug -doc -python_targets_python3_10 -test
+dev-python/editables python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/flit-core python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/gpep517 python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/hatchling python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/idna python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/installer python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/jaraco-context python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/jaraco-functools python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/jaraco-text python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/jinja python_targets_python3_11 -doc -examples -python_targets_python3_10 -test
+dev-python/lxml python_targets_python3_11 threads -debug -doc -examples -python_targets_python3_10 -test
+dev-python/markupsafe python_targets_python3_11 -debug -python_targets_python3_10 -test
+dev-python/more-itertools python_targets_python3_11 -doc -python_targets_python3_10 -test
+dev-python/nspektr python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/ordered-set python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/packaging python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/pathspec python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/platformdirs python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/pluggy python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/pyparsing python_targets_python3_11 -examples -python_targets_python3_10 -test
+dev-python/requests python_targets_python3_11 -python_targets_python3_10 -socks5 -test
+dev-python/setuptools python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/setuptools-scm python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/tomli python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/trove-classifiers python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/typing-extensions python_targets_python3_11 -python_targets_python3_10 -test
+dev-python/urllib3 python_targets_python3_11 -brotli -python_targets_python3_10 -test -zstd
+dev-python/wheel python_targets_python3_11 -python_targets_python3_10 -test
+dev-util/cmake ncurses -doc -emacs -qt5 -test -verify-sig
+dev-util/meson python_targets_python3_11 -python_targets_python3_10 -verify-sig
+dev-util/meson-format-array python_targets_python3_11 -python_targets_python3_10
+dev-util/ninja -doc -emacs -test
+dev-util/pkgconf -abi_x86_32 -test
+dev-util/re2c -debug -test
+net-dns/c-ares -abi_x86_32 -static-libs -test -verify-sig
+net-dns/libidn2 nls -abi_x86_32 -static-libs -verify-sig
+net-firewall/iptables -conntrack -netlink -nftables -pcap -static-libs
+net-libs/gnutls cxx idn nls openssl seccomp tls-heartbeat zlib -abi_x86_32 -brotli -dane -doc -examples -pkcs11 -static-libs -test -tools -verify-sig -zstd
+net-libs/libmnl -examples -verify-sig
+net-libs/libnsl -abi_x86_32 -static-libs
+net-libs/libtirpc -abi_x86_32 -kerberos -static-libs
+net-misc/curl adns alt-svc curl_ssl_openssl ftp hsts http2 imap openssl pop3 progress-meter smtp ssl tftp -abi_x86_32 -brotli -curl_ssl_gnutls -curl_ssl_mbedtls -gnutls -gopher -idn -kerberos -ldap -mbedtls -rtmp -samba -ssh -static-libs -telnet -test -verify-sig -websockets -zstd
+net-misc/iputils arping filecaps nls -caps -clockdiff -doc -idn -test -tracepath
+net-misc/openssh pam pie ssl -X -audit -kerberos -ldns -libedit -livecd -security-key -static -test -verify-sig -xmss
+net-misc/rsync acl iconv python_single_target_python3_11 ssl xattr -examples -lz4 -python_single_target_python3_10 -rrsync -stunnel -system-zlib -verify-sig -xxhash -zstd
+net-misc/wget ipv6 nls pcre zlib -cookie-check -debug -gnutls -idn -metalink -ntlm -static -test -uuid -verify-sig
+sec-keys/openpgp-keys-gentoo-release -test
+sys-apps/acl nls -abi_x86_32 -static-libs
+sys-apps/attr nls -abi_x86_32 -debug -static-libs
+sys-apps/coreutils acl nls openssl xattr -caps -gmp -hostname -kill -multicall -static -test -vanilla -verify-sig
+sys-apps/dbus systemd -X -abi_x86_32 -debug -doc -static-libs -test -valgrind
+sys-apps/debianutils installkernel -static
+sys-apps/diffutils nls -verify-sig
+sys-apps/file bzip2 python_targets_python3_11 seccomp zlib -abi_x86_32 -lzip -lzma -python -python_targets_python3_10 -static-libs -verify-sig -zstd
+sys-apps/findutils nls -static -test -verify-sig
+sys-apps/gawk nls readline -mpfr -pma -verify-sig
+sys-apps/grep egrep-fgrep nls pcre -static -verify-sig
+sys-apps/groff -X -examples -uchardet
+sys-apps/help2man nls
+sys-apps/iproute2 iptables -atm -berkdb -bpf -caps -elf -minimal -nfs
+sys-apps/kbd nls pam -test
+sys-apps/kmod lzma python_targets_python3_11 zlib zstd -debug -doc -pkcs7 -python -python_targets_python3_10 -static-libs
+sys-apps/less pcre
+sys-apps/man-db manpager nls seccomp zlib -static-libs
+sys-apps/man-pages -l10n_cs -l10n_da -l10n_de -l10n_el -l10n_es -l10n_fi -l10n_fr -l10n_hu -l10n_id -l10n_it -l10n_ja -l10n_mk -l10n_nb -l10n_nl -l10n_pl -l10n_pt-BR -l10n_ro -l10n_ru -l10n_sr -l10n_sv -l10n_uk -l10n_vi -l10n_zh-CN
+sys-apps/net-tools arp hostname ipv6 nls -nis -plipconfig -slattach -static
+sys-apps/portage native-extensions python_targets_python3_11 rsync-verify xattr -apidoc -build -doc -gentoo-dev -python_targets_python3_10 -test
+sys-apps/sandbox nnp
+sys-apps/sed acl nls -static -verify-sig
+sys-apps/shadow acl nls pam xattr -audit -bcrypt -cracklib -skey -su -verify-sig
+sys-apps/systemd acl dns-over-tls gcrypt kmod lz4 openssl pam pcre python_single_target_python3_11 resolvconf seccomp sysv-utils zstd -abi_x86_32 -apparmor -audit -boot -cgroup-hybrid -cryptsetup -curl -elfutils -fido2 -gnutls -homed -http -idn -importd -iptables -kernel-install -lzma -pkcs11 -policykit -pwquality -python_single_target_python3_10 -qrcode -secureboot -test -tpm -ukify -vanilla -xkb
+sys-apps/texinfo nls standalone -static
+sys-apps/util-linux cramfs hardlink logger ncurses nls pam python_targets_python3_11 readline su suid systemd udev -abi_x86_32 -audit -build -caps -cryptsetup -fdformat -kill -magic -python -python_targets_python3_10 -slang -static-libs -test -tty-helpers -verify-sig
+sys-auth/pam_mktemp prevent-removal
+sys-auth/pambase mktemp nullok passwdqc systemd yescrypt -caps -debug -gnome-keyring -homed -minimal -pam_krb5 -pam_ssh -pwhistory -pwquality -securetty -sha512
+sys-devel/autoconf -emacs
+sys-devel/automake -test
+sys-devel/bc readline -libedit -static
+sys-devel/binutils nls plugins -doc -gold -gprofng -multitarget -pgo -static-libs -test -vanilla -zstd
+sys-devel/bison nls -examples -static -test -verify-sig
+sys-devel/flex nls -abi_x86_32 -static -test
+sys-devel/gcc fortran hardened nls nptl openmp sanitize ssp -ada -d -debug -default-stack-clash-protection -default-znow -doc -go -graphite -jit -lto -modula2 -objc -objc++ -objc-gc -pgo -systemtap -test -valgrind -vanilla -vtv -zstd
+sys-devel/gettext acl cxx ncurses nls openmp -abi_x86_32 -doc -emacs -git -java -static-libs -verify-sig
+sys-devel/libtool -vanilla
+sys-devel/m4 nls -examples -verify-sig
+sys-devel/make nls -guile -static -verify-sig
+sys-devel/patch xattr -static -test -verify-sig
+sys-fs/e2fsprogs nls tools -abi_x86_32 -cron -fuse -static-libs -test
+sys-kernel/installkernel-gentoo -grub
+sys-kernel/linux-headers -headers-only
+sys-libs/gdbm berkdb nls readline -abi_x86_32 -static-libs -test -verify-sig
+sys-libs/glibc multiarch ssp stack-realign systemd -audit -caps -compile-locales -doc -gd -hash-sysv-compat -headers-only -multilib-bootstrap -nscd -perl -profile -suid -systemtap -test
+sys-libs/libcap pam -abi_x86_32 -static-libs -tools
+sys-libs/libseccomp python_targets_python3_11 -abi_x86_32 -python -python_targets_python3_10 -static-libs -test
+sys-libs/libxcrypt abi_x86_32 -headers-only -static-libs -test
+sys-libs/ncurses cxx stack-realign -abi_x86_32 -ada -debug -doc -gpm -minimal -profile -static-libs -test -trace -verify-sig
+sys-libs/pam filecaps -abi_x86_32 -audit -berkdb -debug -nis
+sys-libs/readline -abi_x86_32 -static-libs -utils -verify-sig
+sys-libs/timezone-data nls -leaps-timezone -zic-slim
+sys-libs/zlib -abi_x86_32 -minizip -static-libs -verify-sig
+sys-process/procps kill ncurses nls systemd -abi_x86_32 -modern-top -static-libs -test
+sys-process/psmisc nls -X -apparmor -test
+virtual/acl -abi_x86_32 -static-libs
+virtual/libcrypt abi_x86_32 -static-libs
+virtual/libiconv -abi_x86_32
+virtual/libintl -abi_x86_32
+virtual/libudev -abi_x86_32
+virtual/openssh ssl
+virtual/ssh -minimal
